@@ -20,6 +20,6 @@ def Login(request):
 
 
 def Registation(request):
-    return render(request,template_name='../templates/app/registation.html')
+    return render(request,template_name='../templates/app/Registration.html')
 
 

@@ -5,13 +5,14 @@ body {
   background-attachment: fixed;
   font-family: "Open Sans", sans-serif;
   color: #333333;
+  margin:0;
 }
 
 .box-form {
-  margin: 50px auto;
+  margin: 30px auto;
   width: 80%;
   background: #FFFFFF;
-  border-radius: 10px;
+  border-radius: 50px;
   overflow: hidden;
   display: flex;
   flex: 1 1 100%;
@@ -69,7 +70,6 @@ body {
   background-position-x: 10px;
   overflow: hidden;
   box-sizing: border-box;
-  animation: slideInFromLeft 1s ease-in ;
 }
 
 .box-form .left .overlay h1 {
@@ -93,7 +93,7 @@ body {
 
 .left .overlay h1,
 .left .overlay p {
-  animation: slideInFromLeft 1s ease-out 1.5s;
+  animation: slideInFromTop 1s ease-in ;
 }
 
 .box-form .left .overlay span p {
