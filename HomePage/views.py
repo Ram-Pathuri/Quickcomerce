@@ -23,3 +23,5 @@ def Registation(request):
     return render(request,template_name='../templates/app/Registration.html')
 
 
+def nav_after_login(request):
+    return render(request,template_name='../templates/app/nav_after_login.html')
