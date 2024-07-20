@@ -6,7 +6,7 @@ urlpatterns = [
 
     path('admin/', admin.site.urls),
     #path('', views.Home, name='index')
-   path('',views.nav_after_login),
+   path('',views.base),
     # path('',views.Login),
     # path('Registration/',views.Registation)
 
